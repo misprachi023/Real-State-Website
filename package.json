@@ -1,0 +1,29 @@
+{
+  "name": "real-state-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misprachi023/Real-State-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misprachi023/Real-State-Website/issues"
+  },
+  "homepage": "https://github.com/misprachi023/Real-State-Website#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.4.4",
+    "nodemon": "^3.1.4"
+  }
+}
